@@ -9,20 +9,20 @@ function Contact() {
           <div className="card shadow-lg p-4 h-100">
             <h4 className="mb-3 text-primary">Vasuki Store</h4>
 
-            <p><strong>📞 Phone:</strong> 6360852276</p>
+            <p><strong>📞 Phone:</strong> 6343751130</p>
             <p><strong>📍 Address:</strong> Biligeri Village And Post, Madikeri</p>
             <p><strong>⏰ Open:</strong> 8 AM – 9 PM</p>
 
             <div className="d-grid gap-2 mt-4">
               <a
-                href="tel:6360852276"
+                href="tel:6343751130"
                 className="btn btn-outline-primary"
               >
                 📞 Call Now
               </a>
 
               <a
-                href="https://wa.me/918971539165"
+                href="https://wa.me/918974529165"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-success"
