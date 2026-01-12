@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fcf7f7;
+}
+
+.home {
+  text-align: center;
+  padding: 50px;
+}
+
+.home h1 {
+  color: #2c3e50;
+}
+
+.home button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1abc9c;
+  padding: 15px 30px;
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+}
+
+.navbar li {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.products {
+  padding: 30px;
+  text-align: center;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product-card button {
+  background-color: green;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact {
+  padding: 30px;
+  text-align: center;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px 20px;
+  background-color: #25d366;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.qr {
+  margin-top: 15px;
+  width: 200px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+/* Sticky Navbar */
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #1abc9c;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar links */
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Active link highlight */
+.navbar ul li a.active {
+  border-bottom: 3px solid white;
+  font-weight: bold;
+}
+
+/* Hover effect */
+.navbar ul li a:hover {
+  opacity: 0.85;
+}
+button.btn {
+  border-radius: 20px;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+button.btn {
+  border-radius: 20px;
+}
+
+
