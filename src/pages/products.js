@@ -59,7 +59,8 @@ function Products() {
 
   return (
     <section id="products">
-      <div className="container bg-white rounded-4 shadow-sm py-5">
+<div className="container products-section rounded-4 py-5">
+
         <h1 className="text-center fw-bold mb-4">Our Products</h1>
 
         {/* 🔍 Search */}

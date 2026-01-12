@@ -206,5 +206,28 @@ body.dark-mode .text-muted {
 body.dark-mode .navbar {
   background-color: #1e1e1e !important;
 }
+/* 🌄 Full Page Background */
+body {
+  background-image: url("../public/cafe.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+/* Background overlay */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.55);
+  z-index: -1;
+}
 
+body.dark-mode::before {
+  background: rgba(0, 0, 0, 0.75);
+}
+.card {
+  backdrop-filter: blur(0px);
+}
 

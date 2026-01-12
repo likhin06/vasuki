@@ -1,15 +1,15 @@
 function Home() {
   return (
-    <div
-      className="container-fluid bg-light text-center py-5"
+    <section
       id="home"
+      className="home-section d-flex align-items-center text-center"
     >
       <div className="container">
-        <h1 className="display-4 fw-bold mb-3">
-          Welcome to <span className="text-primary">Daily Needs Store</span>
+        <h1 className="display-4 fw-bold mb-3 text-white">
+          Welcome to <span className="text-warning">Daily Needs Store</span>
         </h1>
 
-        <p className="lead mb-4">
+        <p className="lead mb-4 text-white">
           All daily use items at <strong>best price</strong> near you
         </p>
 
@@ -18,12 +18,12 @@ function Home() {
             🛒 View Products
           </a>
 
-          <a href="#contact" className="btn btn-outline-secondary btn-lg">
+          <a href="#contact" className="btn btn-outline-light btn-lg">
             📞 Contact Us
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
