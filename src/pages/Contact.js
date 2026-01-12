@@ -22,7 +22,7 @@ function Contact() {
               </a>
 
               <a
-                href="https://wa.me/918974529165"
+                href="https://wa.me/918974c529165"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-success"

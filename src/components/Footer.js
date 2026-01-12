@@ -25,7 +25,7 @@ function Footer() {
           {/* Contact Info */}
           <div className="col-md-4 mb-3">
             <h6 className="fw-bold">Contact</h6>
-            <p className="small mb-1">📞 6360852276</p>
+            <p className="small mb-1">📞 6343751130</p>
             <p className="small mb-1">📍 Madikeri</p>
             <a
               href="https://wa.me/918971539165"
