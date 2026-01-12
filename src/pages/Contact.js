@@ -39,7 +39,7 @@ function Contact() {
             <h5 className="mb-3 text-primary">Pay using Google Pay</h5>
 
             <img
-              src="/OR-Code.jpeg"
+              src="/a2.jpg"
               alt="Google Pay QR"
               className="img-fluid rounded mb-3"
               style={{ maxWidth: "220px", margin: "0 auto" }}
